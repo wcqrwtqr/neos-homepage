@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
 
   <head>
     <meta charset="utf-8">
@@ -30,10 +30,11 @@
             </a>
             <ul class="dropdown-menu">
               <!-- <li><a class="dropdown-item" href="./assets_register.html">Asset register</a></li> -->
-              <li><a class="dropdown-item" href="./sls_OEM.html">OEM Document</a></li>
+              <!-- <!-- <li><a class="dropdown-item" href="./sls_OEM.html">OEM Document</a></li> --> -->
               <li><a class="dropdown-item" href="./all-certificate.html">SLS Certification</a></li>
               <li><a class="dropdown-item" href="./sls_pce_ms.html">SLS MS Sheet</a></li>
               <li><a class="dropdown-item" href="./sls_coc_nov.html">NOV COC</a></li>
+              <li><a class="dropdown-item" href="./oem_manual.html">OEM MANUAL</a></li>
             </ul>
           </li>
           <li class="nav-item dropdown">
@@ -83,6 +84,9 @@
           <input id="searchInput" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
           <button class="btn btn-outline-success" type="submit">Search</button>
         </form>
+        <button class="btn btn-outline-secondary ms-2" id="themeToggle">
+          🌙
+        </button>
       </div>
     </div>
   </nav>
@@ -112,19 +116,19 @@
     <td>SQB Count</td>
     <td>54</td>
     <td>122</td>
-    <td>27</td>
+    <td>31</td>
   </tr>
   <tr>
     <td>Final report Count Unit-1</td>
     <td>56</td>
     <td>133</td>
-    <td>16</td>
+    <td>17</td>
   </tr>
   <tr>
     <td>Final report Count Unit-2</td>
     <td>4</td>
     <td>49</td>
-    <td>14</td>
+    <td>15</td>
   </tr>
 <table class="table" id="pdfTable">
   <thead>
@@ -140,7 +144,7 @@
 <tbody>
   <tr>
     <th scope="row">1</th>
-    <td style='background-color:Khaki;'>EXP 20260222 South Rumaila Day Work Approval</td>
+    <td class=text-bg-warning>EXP 20260222 South Rumaila Day Work Approval</td>
     <td>South Rumaila</td>
     <td>Day</td>
     <td>20260222</td>
@@ -177,6 +181,7 @@
             crossorigin="anonymous"></script>
 
 
+    <script type="text/javascript" src="./script/toggle-dark-mode.js"></script>
   </body>
 
 </html>
