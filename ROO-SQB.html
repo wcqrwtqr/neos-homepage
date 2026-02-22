@@ -1557,24 +1557,18 @@
     <td>ROO SQB</td>
     <td><a href="../02 Slickline/01 Jobs/BECL BP/SQB/2026/20260220_R-769_SLS_SQB_Unit-2.pdf" target="_blank">link</a></td>
   </tr>
+  <tr>
+    <th scope="row">208</th>
+    <td>20260221_Ru-253_SLS_SQB_Unit-1</td>
+    <td>2026-02-21</td>
+    <td>ROO SQB</td>
+    <td><a href="../02 Slickline/01 Jobs/BECL BP/SQB/2026/20260221_Ru-253_SLS_SQB_Unit-1.pdf" target="_blank">link</a></td>
+  </tr>
 </tbody>
 </div>
 
-<script>
-  document.getElementById("searchForm").addEventListener("submit", function (event) {
-    event.preventDefault(); // Prevent the form from submitting traditionally
-    const searchTerm = document.getElementById("searchInput").value.toLowerCase();
-    const rows = document.querySelectorAll("#pdfTable tbody tr");
-    rows.forEach(row => {
-      const docName = row.querySelector("td").textContent.toLowerCase();
-      if (docName.includes(searchTerm)) {
-        row.style.display = ""; // Show row
-      } else {
-        row.style.display = "none"; // Hide row
-      }
-    });
-  });
-</script>
+<script type="text/javascript" src="./script/search-nav-filed.js"></script>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 <script type="text/javascript" src="./script/toggle-dark-mode.js"></script>
