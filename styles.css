@@ -55,3 +55,10 @@ h1 {
     margin-right: 10px;
     color: #ff6b6b;
 }
+table.dataTable tbody tr.selected {
+    background-color: #0d6efd !important; /* Bootstrap Primary Blue */
+    color: white !important;
+}
+table.dataTable tbody tr.selected a {
+    color: #ffc107 !important; /* Make links yellow when row is selected for visibility */
+}
